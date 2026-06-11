@@ -230,19 +230,19 @@
       <form action="https://formspree.io/f/xwvjrene" method="POST" class="card rounded-2xl p-8 text-left space-y-4">
         <div>
           <label class="block text-xs text-slate-400 mb-1">会社名・屋号</label>
-          <input type="text" class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-2 text-sm text-white focus:outline-none focus:border-accent" placeholder="株式会社○○">
+          <input type="text" name="company" class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-2 text-sm text-white focus:outline-none focus:border-accent" placeholder="株式会社○○">
         </div>
         <div>
           <label class="block text-xs text-slate-400 mb-1">お名前</label>
-          <input type="text" class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-2 text-sm text-white focus:outline-none focus:border-accent" placeholder="山田 太郎">
+          <input type="text" name="name" class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-2 text-sm text-white focus:outline-none focus:border-accent" placeholder="山田 太郎">
         </div>
         <div>
           <label class="block text-xs text-slate-400 mb-1">メールアドレス</label>
-          <input type="email" class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-2 text-sm text-white focus:outline-none focus:border-accent" placeholder="example@company.com">
+          <input type="email" name="email" class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-2 text-sm text-white focus:outline-none focus:border-accent" placeholder="example@company.com">
         </div>
         <div>
           <label class="block text-xs text-slate-400 mb-1">ご相談内容（任意）</label>
-          <textarea rows="3" class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-2 text-sm text-white focus:outline-none focus:border-accent" placeholder="自動化したい業務・課題など"></textarea>
+          <textarea rows="3" name="message" class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-2 text-sm text-white focus:outline-none focus:border-accent" placeholder="自動化したい業務・課題など"></textarea>
         </div>
         <button class="w-full bg-accent hover:bg-accent-light text-white font-medium py-3 rounded-lg transition">無料相談を申し込む</button>
         <p class="text-xs text-slate-500 text-center">24時間以内に返信いたします</p>
