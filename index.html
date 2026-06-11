@@ -227,7 +227,7 @@
     <div class="max-w-xl mx-auto text-center">
       <h2 class="text-2xl font-bold mb-3">まず30分、話を聞いてみてください</h2>
       <p class="text-slate-400 text-sm mb-8">現在の業務課題をお聞かせいただければ、<br>自動化できる箇所と概算費用をその場でお伝えします。</p>
-      <form action="https://formspree.io/f/xwvjrene" method="POST" class="card rounded-2xl p-8 text-left space-y-4">
+      <form action="https://formspree.io/f/xwvjrene" method="POST" enctype="application/x-www-form-urlencoded" class="card rounded-2xl p-8 text-left space-y-4">
         <div>
           <label class="block text-xs text-slate-400 mb-1">会社名・屋号</label>
           <input type="text" name="company" class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-2 text-sm text-white focus:outline-none focus:border-accent" placeholder="株式会社○○">
@@ -244,7 +244,7 @@
           <label class="block text-xs text-slate-400 mb-1">ご相談内容（任意）</label>
           <textarea rows="3" name="message" class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-2 text-sm text-white focus:outline-none focus:border-accent" placeholder="自動化したい業務・課題など"></textarea>
         </div>
-        <button class="w-full bg-accent hover:bg-accent-light text-white font-medium py-3 rounded-lg transition">無料相談を申し込む</button>
+        <button type="submit" class="w-full bg-accent hover:bg-accent-light text-white font-medium py-3 rounded-lg transition">無料相談を申し込む</button>
         <p class="text-xs text-slate-500 text-center">24時間以内に返信いたします</p>
       </form>
     </div>
